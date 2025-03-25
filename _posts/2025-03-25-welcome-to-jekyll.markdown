@@ -9,6 +9,12 @@ categories: jekyll update
   <img src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\_assets\bokeh_plot.html"><br>
 </div>
 
+second
+
+<div>
+  <img src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\bokeh_plot.html"><br>
+</div>
+
 
 
 need full path
