@@ -6,3 +6,10 @@ layout: home
 
 ---
 
+
+
+First plot 
+<div>
+  <img src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\_assets\bokeh_plot.html"><br>
+</div>
+

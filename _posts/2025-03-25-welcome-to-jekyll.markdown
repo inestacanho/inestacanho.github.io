@@ -6,7 +6,7 @@ categories: jekyll update
 
 ---
 <div>
-  <img src="_assets\bokeh_plot.html"><br>
+  <img src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\_assets\bokeh_plot.html"><br>
 </div>
 
 
