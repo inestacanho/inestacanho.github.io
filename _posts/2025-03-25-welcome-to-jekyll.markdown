@@ -5,8 +5,13 @@ date:   2025-03-25 13:31:18 +0100
 categories: jekyll update
 
 ---
+<div>
+  <img alt="computer" src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\bokeh_plot.html"><br>
+</div>
 
-<iframe src="/bokeh_plot.html" width="100%" height="600px"></iframe>
+computer
+view raw
+sample.md hosted with ❤ by GitHub
 
 Changes made but unsure
 
