@@ -8,7 +8,7 @@ categories: jekyll update
 
 <iframe src="/bokeh_plot.html" width="100%" height="600px"></iframe>
 
-Changes made
+Changes made but unsure
 
 Jekyll requires blog post files to be named according to the following format:
 
