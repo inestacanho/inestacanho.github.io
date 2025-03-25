@@ -3,13 +3,17 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "Assignment 2: San Francisco Crime & Tourism"
 
 ---
 
+# First Plot  
 
+Here is an interactive visualization of crime and landmarks in San Francisco:
 
-First plot 
-<div>
-  <img src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\_assets\bokeh_plot.html"><br>
-</div>
+<iframe src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\_assets\heat_map.html" width="100%" height="600px"></iframe>
+
+## Landmarks Data  
+Data sourced from:  
+[San Francisco Landmark Listings](https://data.sfgov.org/Housing-and-Buildings/Map-of-Landmarks-Listed-in-Article-10-of-the-San-F/hycf-nc3x)
 
