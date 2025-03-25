@@ -6,7 +6,7 @@ categories: jekyll update
 
 ---
 <div>
-  <img src="\bokeh_plot.html"><br>
+  <img src="_assets\bokeh_plot.html"><br>
 </div>
 
 
