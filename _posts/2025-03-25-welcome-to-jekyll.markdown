@@ -11,7 +11,7 @@ categories: jekyll update
 
 
 
-Changes made but unsure
+need full path
 
 Jekyll requires blog post files to be named according to the following format:
 
