@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<iframe src="/_assets/bokeh_plot.html" width="100%" height="600px"></iframe>
+<iframe src="/_assets/bokeh_plot.html"></iframe>
