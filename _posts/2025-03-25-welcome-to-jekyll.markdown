@@ -6,7 +6,7 @@ categories: jekyll update
 
 ---
 
-<iframe src="bokeh_plot.html" width="100%" height="600px"></iframe>
+<iframe src="/bokeh_plot.html" width="100%" height="600px"></iframe>
 
 Changes made
 
