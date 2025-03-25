@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  inestacanho
 
 # Build settings
-theme: hydejack
+theme: hyde
 plugins:
   - jekyll-feed
 include:
