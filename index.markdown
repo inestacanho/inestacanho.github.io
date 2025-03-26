@@ -17,7 +17,23 @@ In this analysis, we chose to examining crime evolution from **2014 to 2024** in
 ## Crime Analysis
 From the crimes categories available in our dataset, the most concerning ones regarding tourists are **robbery** and **larcency/theft**.
 
-<iframe src="/images/Larcency_Theft.html" width="100%" height="600px"></iframe>
+```html
+<button onclick="showIframe('larceny')">Show Larceny/Theft</button>
+<button onclick="showIframe('heatmap')">Show Heat Map</button>
+
+<div id="iframeContainer">
+    <iframe id="larceny" src="/images/Larcency_Theft.html" width="100%" height="600px" style="display:none;"></iframe>
+    <iframe id="heatmap" src="/images/heat_map.html" width="100%" height="600px"></iframe>
+</div>
+
+<script>
+    function showIframe(id) {
+        document.getElementById('larceny').style.display = 'none';
+        document.getElementById('heatmap').style.display = 'none';
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+```
 
 <!-- ![Crime Trends](images/crime_trends.png) -->
 
