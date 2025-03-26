@@ -22,7 +22,7 @@ From the crimes categories available in our dataset, the most concerning ones re
 
 <div id="iframeContainer">
     <iframe id="larceny" src="/images/Larceny_Theft_timeseries.html" width="100%" height="600px" style="display:none;"></iframe>
-    <iframe id="robbery" src="/images/Robbery_timeseries.html" width="100%" height="600px"></iframe>
+    <iframe id="robbery" src="/images/Robbery_timeseries.html" width="100%" height="600px" style="display:none;"></iframe>
 </div>
 
 <script>
@@ -30,6 +30,7 @@ From the crimes categories available in our dataset, the most concerning ones re
         document.getElementById('larceny').style.display = 'none';
         document.getElementById('robbery').style.display = 'none';
         document.getElementById(id).style.display = 'block';
+        document.getElementById('robbery').style.display = 'block';
     }
 </script>
 
