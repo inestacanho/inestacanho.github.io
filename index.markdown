@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Assignment 2: San Francisco Crime & Tourism"
+title: "San Francisco Crime & Tourism"
 
 ---
 <head>
@@ -18,7 +18,7 @@ In this analysis, we chose to examining crime evolution from **2014 to 2024** in
 From the crimes categories available in our dataset, the most concerning ones regarding tourists are **robbery** and **larcency/theft**.
 
 <button onclick="showIframe('larceny')">Show Larceny/Theft</button>
-<button onclick="showIframe('heatmap')">Show Heat Map</button>
+<button onclick="showIframe('robbery')">Show Robbery</button>
 
 <div id="iframeContainer">
     <iframe id="larceny" src="/images/Larceny_Theft_timeseries.html" width="100%" height="600px" style="display:none;"></iframe>
@@ -28,7 +28,7 @@ From the crimes categories available in our dataset, the most concerning ones re
 <script>
     function showIframe(id) {
         document.getElementById('larceny').style.display = 'none';
-        document.getElementById('heatmap').style.display = 'none';
+        document.getElementById('robbery').style.display = 'none';
         document.getElementById(id).style.display = 'block';
     }
 </script>
