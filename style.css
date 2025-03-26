@@ -4,3 +4,11 @@ body {
     background-color:ghostwhite;
     font-family: 'Montserrat'; font-size: 15px;  
 }
+
+iframe {
+    display: none; /* Hide all iframes initially */
+}
+
+iframe.active {
+    display: block; /* Show iframe when it's active */
+}
