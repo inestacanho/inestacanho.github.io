@@ -37,6 +37,9 @@ include:
   - _posts/
   - _assets/
 
+head:
+  - "<link rel='stylesheet' href='{{ site.baseurl }}/style.css'>"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
