@@ -27,21 +27,21 @@ From the crimes categories available in our dataset, the most concerning ones re
 
 <script>
     function showIframe(id) {
+        // Hide both iframes
         document.getElementById('larceny').style.display = 'none';
         document.getElementById('robbery').style.display = 'none';
+        
+        // Show the selected iframe
         document.getElementById(id).style.display = 'block';
-        document.getElementById('robbery').style.display = 'block';
     }
 </script>
 
 
-<!-- ![Crime Trends](images/crime_trends.png) -->
 
 Looking at their trend evolution in the below graph, we observe that larceny/theft is the most prevalent crime, consistently dominating the total crime count. However, its trend is less stable, with significant fluctuations over the past decade. The most noticeable drop occurred around 2020, most likely influenced by external factors such as the pandemic, which affected patterns due to reduced mobility and tourism. After 2020, there was a sharp rebound, indicating that larceny incidents returned to pre-pandemic levels as restrictions eased.
 
 On the other hand, robbery has shown a much more stable trend in comparison to the previous category. While the number of incidents has fluctuated slightly, it has not experienced the same dramatic ups and downs as larceny. The steady nature of robbery suggests it is less impacted by external factors.
 
-<!-- <iframe src="/images/heat_map.html" width="100%" height="600px"></iframe>-->
 
 ## Landmarks Data  
 Data sourced from:  
