@@ -40,7 +40,7 @@ Looking at their trend evolution in the below graph, we observe that larceny/the
 
 On the other hand, robbery has shown a much more stable trend in comparison to the previous category. While the number of incidents has fluctuated slightly, it has not experienced the same dramatic ups and downs as larceny. The steady nature of robbery suggests it is less impacted by external factors.
 
-<iframe src="/images/heat_map.html" width="100%" height="600px"></iframe>
+<!-- <iframe src="/images/heat_map.html" width="100%" height="600px"></iframe>-->
 
 ## Landmarks Data  
 Data sourced from:  
