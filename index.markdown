@@ -6,6 +6,9 @@ layout: home
 title: "Assignment 2: San Francisco Crime & Tourism"
 
 ---
+<head>
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+</head>
 
 ## Topic Introduction
 
