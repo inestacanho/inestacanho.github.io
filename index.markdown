@@ -12,13 +12,7 @@ title: "Assignment 2: San Francisco Crime & Tourism"
 Here is an interactive visualization of crime and landmarks in San Francisco:
 
 
-<iframe src="/images/bokeh_plot.html" width="100%" height="600px"></iframe>
-
-SECOND TRY
-
-<div>
-  <img  src="C:\Users\inest\OneDrive - Danmarks Tekniske Universitet\Semester IV\Social Data Analysis and Visualization\Assignment 2\inestacanho.github.io\heat_map.html"><br>
-</div>
+<iframe src="/images/heat_map.html" width="100%" height="600px"></iframe>
 
 ## Landmarks Data  
 Data sourced from:  
