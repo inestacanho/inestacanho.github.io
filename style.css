@@ -18,7 +18,7 @@ iframe.active {
 button{
     background-color: rgb(170, 186, 230);
     color: black;
-    border: 8px;
+    border: 16px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
