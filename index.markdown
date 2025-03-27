@@ -8,17 +8,9 @@ title: "San Francisco Crime & Tourism"
 ---
 <head>
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <script src="{{ site.baseurl }}/scripts.js" defer></script>
 </head>
-<script>
-    function showIframe(id) {
-        // Hide both iframes
-        document.getElementById('larceny').style.display = 'none';
-        document.getElementById('robbery').style.display = 'none';
-        
-        // Show the selected iframe
-        document.getElementById(id).style.display = 'block';
-    }
-</script>
+
 
 ## Topic Introduction
 
@@ -30,12 +22,9 @@ From the crimes categories available in our dataset, the most concerning ones re
 <button onclick="showIframe('larceny')">Show Larceny/Theft</button>
 <button onclick="showIframe('robbery')">Show Robbery</button>
 
-
-
-
 <div id="iframeContainer">
-    <iframe id="larceny" src="/images/Larceny_Theft_timeseries.html" width="100%" height="600px" style="display:none;"></iframe>
-    <iframe id="robbery" src="/images/Robbery_timeseries.html" width="100%" height="600px" style="display:none;"></iframe>
+    <iframe id="larceny" src="/images/Larceny_Theft_timeseries.html" width="100%" height="600px"></iframe>
+    <iframe id="robbery" src="/images/Robbery_timeseries.html" width="100%" height="600px"></iframe>
 </div>
 
 

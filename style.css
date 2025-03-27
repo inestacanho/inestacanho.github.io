@@ -6,9 +6,9 @@ body {
 }
 
 iframe {
-    display: none; /* Hide all iframes initially */
+    display: none; /* Hide*/
 }
 
 iframe.active {
-    display: block; /* Show iframe when it's active */
+    display: block; /* Show*/
 }
