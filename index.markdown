@@ -1,7 +1,7 @@
 ---
 
 layout: home
-title: "San Francisco Crime & Tourism 1"
+title: "San Francisco Crime & Tourism"
 
 ---
 <head>
