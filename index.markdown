@@ -8,7 +8,6 @@ title: "San Francisco Crime & Tourism"
 ---
 <head>
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
-  <script src="{{ site.baseurl }}/scripts.js" defer></script>
 </head>
 
 
@@ -21,13 +20,7 @@ From the crimes categories available in our dataset, the most concerning ones re
 
 <iframe src="/images/Larceny_Theft_timeseries.html" width="100%" height="600px"></iframe>
 
-<iframe src="/images/Robbery_timeseries.html" width="100%" height="600px"></iframe>
-
-
-<button onclick="showIframe('larceny')">Show Larceny/Theft</button>
-<button onclick="showIframe('robbery')">Show Robbery</button>
-
-
+<!-- <iframe src="/images/Robbery_timeseries.html" width="100%" height="600px"></iframe> -->
 
 
 
