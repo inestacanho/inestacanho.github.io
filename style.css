@@ -12,3 +12,25 @@ iframe {
 iframe.active {
     display: block; /* Show*/
 }
+
+button{
+    background-color: rgb(240, 244, 255);
+    color: black;
+    border: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #385e86;
+    color: white;
+    border: 8px;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #385e86;
+    color: white;
+    border: 8px;
+    transform: scale(1.1);
+}
