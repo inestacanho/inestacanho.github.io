@@ -7,10 +7,12 @@ body {
 
 iframe {
     display: none; /* Hide*/
+
 }
 
 iframe.active {
     display: block; /* Show*/
+
 }
 
 button{
