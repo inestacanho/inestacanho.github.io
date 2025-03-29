@@ -14,15 +14,15 @@ title: "San Francisco Crime & Tourism"
 In this analysis, we chose to examining crime evolution from **2014 to 2024** in connection with **historic landmarks** of San Francisco. By exploring trends in  near key landmarks, we aim to identify potential patterns and assess whether certain locations are becoming more vulnerable over time or if the crime rate has declined. This insight can help in understanding how crime dynamics shift around significant city sites, particularly those frequented by tourists.
 
 ## Crime Analysis
-From the crimes categories available in our dataset, the most concerning ones regarding tourists are **robbery** and **larcency/theft**.
+From the crimes categories available in our dataset, the most concerning ones regarding tourists are **larcency/theft** and **robbery**.
 
 <button onclick="showIframe('larceny')">Show Larceny/Theft</button>
 <button onclick="showIframe('robbery')">Show Robbery</button>
 
 <div id="iframeContainer">
     <!-- Initial state: All iframes are hidden -->
-    <iframe id="larceny" src="/images/Larceny_Theft_timeseries.html" width="100%" height="450px"></iframe>
-    <iframe id="robbery" src="/images/Robbery_timeseries.html" width="100%" height="450px"></iframe>
+    <iframe id="larceny" src="/images/Larceny_Theft_timeseries.html" width="600" height="300"></iframe>
+    <iframe id="robbery" src="/images/Robbery_timeseries.html" width="600" height="300"></iframe>
 </div>
 
 Looking at their trend evolution in the graphs, we observe that larceny/theft is the most prevalent crime, consistently dominating the total crime count. However, its trend is less stable, with significant fluctuations over the past decade. The most noticeable drop occurred around 2020, most likely influenced by external factors such as the pandemic, which affected patterns due to reduced mobility and tourism. After 2020, there was a sharp rebound, indicating that larceny incidents returned to pre-pandemic levels as restrictions eased.
@@ -31,12 +31,12 @@ On the other hand, robbery has shown a much more stable trend in comparison to t
 
 ## Crime Trend by District
 
-<iframe src="/images/Larceny_Robbery_Districts_Interactive.html" width="100%" height="450px"></iframe>
+<iframe id="crime_district" src="/images/Larceny_Robbery_Districts_Interactive.html" width="600" height="300"></iframe>
 
 ## Distribution of Larceny and Robbery over the Years
 
-<img src="/images/crime_calendar_plot.png" alt="Crime Calendar Plot" width="100%" style="max-height: 450px; object-fit: contain;">
+<img src="/images/crime_calendar_plot.png" alt="Crime Calendar Plot" width="100%" style="width: 100%; height: auto;">
 
 ## Distribution of the Crimeson the Map
 
-<iframe src="/images/heat_map.html" width="100%" height="450px"></iframe>
+<iframe id="map" src="/images/heat_map.html" width="600" height="300"></iframe>
