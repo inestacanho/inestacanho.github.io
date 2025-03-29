@@ -28,3 +28,15 @@ From the crimes categories available in our dataset, the most concerning ones re
 Looking at their trend evolution in the graphs, we observe that larceny/theft is the most prevalent crime, consistently dominating the total crime count. However, its trend is less stable, with significant fluctuations over the past decade. The most noticeable drop occurred around 2020, most likely influenced by external factors such as the pandemic, which affected patterns due to reduced mobility and tourism. After 2020, there was a sharp rebound, indicating that larceny incidents returned to pre-pandemic levels as restrictions eased.
 
 On the other hand, robbery has shown a much more stable trend in comparison to the previous category. While the number of incidents has fluctuated slightly, it has not experienced the same dramatic ups and downs as larceny. The steady nature of robbery suggests it is less impacted by external factors.
+
+## Crime Trend by District
+
+<iframe src="/images/Larceny_Robbery_Districts_Interactive.html" width="100%" height="450px"></iframe>
+
+## Distribution of Larceny and Robbery over the Years
+
+<img src="/images/crime_calendar_plot.png" alt="Crime Calendar Plot" width="100%" style="max-height: 450px; object-fit: contain;">
+
+## Distribution of the Crimeson the Map
+
+<iframe src="/images/heat_map.html" width="100%" height="450px"></iframe>
