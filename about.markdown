@@ -4,7 +4,11 @@ title: About This Project
 permalink: /about/
 ---
 
-This project was created as part of the 02806 Social Data Analysis and Visualization at the Technical University of Denmark (DTU). Our team - whcih includes Inês Tacanho: (s232669), Raquel Marques (s243636) and Sree Keerthi Desu (243933) - has analyzed SF Crime Data to uncover meaningful insights and trends.
+<head>
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+</head>
+
+This project was created as part of the 02806 Social Data Analysis and Visualization at the Technical University of Denmark (DTU). Our group - whcih includes Inês Tacanho: (s232669), Raquel Marques (s243636) and Sree Keerthi Desu (243933) - has analyzed SF Crime Data to uncover meaningful insights and trends.
 
 ## What You’ll Find Here
 

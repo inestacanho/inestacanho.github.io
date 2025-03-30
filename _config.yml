@@ -37,6 +37,7 @@ plugins:
 include:
   - _posts/
   - _assets/
+  - images/
 
 head:
   - "<link rel='stylesheet' href='{{ site.baseurl }}/style.css'>"
