@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="de1df226-c76e-4f9f-9c0c-7e9ac1212e17" data-root-id="p1213" style="display: contents;"></div>
+  
+    <script type="application/json" id="ccb9b2ba-ec32-44e5-a14b-24d6c333c3de">
+      {"db710694-dfa0-4b59-923a-dfef8dfce2fe":{"version":"3.7.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1213","attributes":{"x_range":{"type":"object","name":"FactorRange","id":"p1212","attributes":{"factors":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p1215"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p1223"},"y_scale":{"type":"object","name":"LinearScale","id":"p1224"},"title":{"type":"object","name":"Title","id":"p1216","attributes":{"text":"Normalized number of incidents by hour"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p1254","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1209","attributes":{"selected":{"type":"object","name":"Selection","id":"p1210","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1211"},"data":{"type":"map","entries":[["TimeOfDayHour",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAABYAAAAXAAAA"},"shape":[24],"dtype":"int32","order":"little"}],["LARCENY/THEFT",{"type":"ndarray","array":{"type":"bytes","data":"lcHEXCpd7T8QJAecd3XrP1csWGAq4uk/ODhnBtLo6j+uYz83bR3rP0LDK7rnRus/KoNEv7ip7D/PERMKuG/tP97vaRhWDO4/w7oFqlIN7j9bK9cD0jruPyupTOwHOu4/VD7thfNM7j8QxcRdAOrtP5GFLGQhu+0/Dzc6+Vuw7T+hSIzx2pPtP3eIO0k69O0/9tWKQmE67j+B4u6QDijuP0zf/spE4e0/4x/QedYn7T8M+1FaXQHtP+XwwzUxpew/"},"shape":[24],"dtype":"float64","order":"little"}],["ROBBERY",{"type":"ndarray","array":{"type":"bytes","data":"WvPZGa0WtT/Bb+OPISrCP6ROn35Wd8g/Hx9j5rdcxD9JcQIjS4rDP/jyUBdh5MI/rebbBTqyuj+FcWevP4K0Px0CYXmeOq8/zlOkX9Uqrz9JSo3C31KsP1FtNTuBX6w/uxosoccwqz+E19kR/a+wP3rTm970JrI/iEcuNiB9sj/0up1zKGGzP0y8I7YtXrA/pKBS1+tZrD/x1xHxFn+tP6QFCajZ9bA/5gB/MUzBtj+gJ3AtFfW3P9Z44FF21ro/"},"shape":[24],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p1255","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1256"}}},"glyph":{"type":"object","name":"VBar","id":"p1251","attributes":{"x":{"type":"field","field":"TimeOfDayHour"},"top":{"type":"field","field":"ROBBERY"},"line_color":{"type":"value","value":"#1f77b4"},"fill_color":{"type":"value","value":"#1f77b4"},"hatch_color":{"type":"value","value":"#1f77b4"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1252","attributes":{"x":{"type":"field","field":"TimeOfDayHour"},"top":{"type":"field","field":"ROBBERY"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1253","attributes":{"x":{"type":"field","field":"TimeOfDayHour"},"top":{"type":"field","field":"ROBBERY"},"line_color":{"type":"value","value":"#1f77b4"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#1f77b4"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#1f77b4"},"hatch_alpha":{"type":"value","value":0.1}}},"muted":true}},{"type":"object","name":"GlyphRenderer","id":"p1265","attributes":{"data_source":{"id":"p1209"},"view":{"type":"object","name":"CDSView","id":"p1266","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1267"}}},"glyph":{"type":"object","name":"VBar","id":"p1262","attributes":{"x":{"type":"field","field":"TimeOfDayHour"},"top":{"type":"field","field":"LARCENY/THEFT"},"line_color":{"type":"value","value":"#ff7f0e"},"fill_color":{"type":"value","value":"#ff7f0e"},"hatch_color":{"type":"value","value":"#ff7f0e"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p1263","attributes":{"x":{"type":"field","field":"TimeOfDayHour"},"top":{"type":"field","field":"LARCENY/THEFT"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p1264","attributes":{"x":{"type":"field","field":"TimeOfDayHour"},"top":{"type":"field","field":"LARCENY/THEFT"},"line_color":{"type":"value","value":"#ff7f0e"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#ff7f0e"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#ff7f0e"},"hatch_alpha":{"type":"value","value":0.1}}},"muted":true}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1222","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1235"},{"type":"object","name":"WheelZoomTool","id":"p1236","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p1237","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p1238","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1244","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1243","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p1245"},{"type":"object","name":"ResetTool","id":"p1246"},{"type":"object","name":"HelpTool","id":"p1247"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p1230","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1231","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p1232"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1233"}}}],"right":[{"type":"object","name":"Legend","id":"p1269","attributes":{"location":[0,-30],"click_policy":"mute","items":[{"type":"object","name":"LegendItem","id":"p1270","attributes":{"label":{"type":"value","value":"ROBBERY"},"renderers":[{"id":"p1254"}]}},{"type":"object","name":"LegendItem","id":"p1271","attributes":{"label":{"type":"value","value":"LARCENY/THEFT"},"renderers":[{"id":"p1265"}]}}]}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p1225","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p1226"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p1227"},"major_label_policy":{"type":"object","name":"AllLabels","id":"p1228"}}}],"center":[{"type":"object","name":"Grid","id":"p1229","attributes":{"axis":{"id":"p1225"}}},{"type":"object","name":"Grid","id":"p1234","attributes":{"dimension":1,"axis":{"id":"p1230"}}},{"type":"object","name":"Legend","id":"p1257","attributes":{"visible":false,"items":[{"type":"object","name":"LegendItem","id":"p1258","attributes":{"label":{"type":"value","value":"ROBBERY"},"renderers":[{"id":"p1254"}]}},{"type":"object","name":"LegendItem","id":"p1268","attributes":{"label":{"type":"value","value":"LARCENY/THEFT"},"renderers":[{"id":"p1265"}]}}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('ccb9b2ba-ec32-44e5-a14b-24d6c333c3de').textContent;
+              const render_items = [{"docid":"db710694-dfa0-4b59-923a-dfef8dfce2fe","roots":{"p1213":"de1df226-c76e-4f9f-9c0c-7e9ac1212e17"},"root_ids":["p1213"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
