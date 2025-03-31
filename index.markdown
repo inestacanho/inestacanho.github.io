@@ -69,7 +69,7 @@ Furthermore, it is also visible that San Francisco has experienced a significant
 In order to visualize if the hotspots of crime within SF are linked to the locations of the landmarks, the following heatmap of the crime distribution throughout the years, along with the landmarks (in blue), is plotted.
 
 <figure>
-  <iframe src="{{ site.baseurl }}/images/heat_map.html" width="100%" height="450px"></iframe>
+  <iframe src="{{ site.baseurl }}/images/heat_map_new.html" width="100%" height="450px"></iframe>
   <figcaption> Figure 2: Heatmap of Larceny/Theft crimes from 2014 to 2024. </figcaption>
 </figure>
 
