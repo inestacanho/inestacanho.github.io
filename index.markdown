@@ -20,9 +20,9 @@ layout: home
 
 ## Topic Introduction
 
-San Francisco, one of the most popular cities in the United States (House of Travel), draws many tourists yearly with its iconic landmarks, picturesque views, and well-known neighborhoods. However, with high tourism comes an increased exposure to the possibility of theft and crime, particularly for these visitors unfamiliar with the area. One of the most common types of crime that tourists are exposed to is pickpocketing (Harper, 2001), which is classified under the category Larceny/Theft. (FBI)
+San Francisco, one of the most popular cities in the United States (House of Travel), draws many tourists yearly with its iconic landmarks, picturesque views, and well-known neighborhoods. However, with high tourism comes an increased exposure to the possibility of theft and crime. These visitors unfamiliar with the area might be more prone to become targets. One of the most common types of crime that tourists are exposed to is theft (Ronald W. Glesnor and Kenneth J. Peak, 2004).
 
-Therefore, in this analysis, we will examine **Larceny/Theft trends** in San Francisco from **2014 to 2024**, aiming to understand how the trends fluctuate throughout the years and how they relate to the city's **landmarks** (obtained from (DataSF, 2025)). By analyzing these patterns, we hope to help tourists avoid/be aware of high-risk areas and thus navigate the city more safely in the present day.
+Therefore, in this analysis, we will examine **Larceny/Theft trends** in San Francisco from **2014 to 2024**, aiming to understand how the trends fluctuate throughout the years and how they relate to the city's **landmarks** (obtained from (DataSF, 2025)) that tourists often tend to visit the most. By analyzing these patterns, we hope to help tourists avoid/be aware of high-risk areas and thus navigate the city more safely in the present day.
 
 ## Crime Overview
 
@@ -47,7 +47,7 @@ We start by giving a general overview of the larceny/theft crimes over the years
           <iframe id="larceny_district" src="{{ site.baseurl }}images/Larceny_Districts_Interactive.html" width="100%" height="450px" title="Larceny/Theft Crime Count by District from 2014 to 2024"></iframe>
       </div>
   </div>
-  <figcaption> Fig 1: Time-series graphs of Larceny/Theft crimes from 2014 to 2024. </figcaption>
+  <figcaption> Figure 1: Time-series graphs of Larceny/Theft crimes from 2014 to 2024. </figcaption>
 </div>
 
 <div> 
@@ -60,7 +60,7 @@ This trend is also reflected in the second interactive plot, which presents larc
 
 Furthermore, it is also visible that San Francisco has experienced a significant reduction in larceny/theft crimes recently, since around September of 2023, primarily due to a sharp decline in car break-ins, one of the most common crimes in the city (San Francisco Chronicle, 2025). From 2023 to 2024, car break-ins fell by 54%, according to police data, leading to an overall 37% drop in larceny/theft incidents.
 
-While the overall number of larceny/theft crimes has decreased due to the reduction in car break-ins, it is worth noting that this data does not provide insights into other types of theft, such as pickpocketing. Given that our project focuses on tourist-targeted crimes, particularly pickpocketing, we cannot definitively state whether pickpocketing incidents have followed the same trend as car break-ins. Further analysis would be necessary to make conclusions about pickpocketing trends in San Francisco.
+<!-- While the overall number of larceny/theft crimes has decreased due to the reduction in car break-ins, it is worth noting that this data does not provide insights into other types of theft, such as pickpocketing. Given that our project focuses on tourist-targeted crimes, particularly pickpocketing, we cannot definitively state whether pickpocketing incidents have followed the same trend as car break-ins. Further analysis would be necessary to make conclusions about pickpocketing trends in San Francisco. -->
 
 <!-- At first glance, the **most prevalent districts of larceny crimes are Central, Southern, and Northern**. However, it should be emphasized that while the Southern district presents a vast number of larceny/theft incidents early in the decade, surpassing 1,000 crimes in summer 2015, it experienced a steady decline from 2018 onwards. In contrast, Central and Northern districts maintained high crime levels throughout the period, with noticeable spikes even post-pandemic. This observation could suggest a potential shift in crime hotspots over time, possibly influenced by changing urban dynamics, policing strategies, or economic factors. -->
 
@@ -70,10 +70,10 @@ In order to visualize if the hotspots of crime within SF are linked to the locat
 
 <figure>
   <iframe src="{{ site.baseurl }}/images/heat_map.html" width="100%" height="450px"></iframe>
-  <figcaption> Fig 2: Heatmap of Larceny/Theft crimes from 2014 to 2024. </figcaption>
+  <figcaption> Figure 2: Heatmap of Larceny/Theft crimes from 2014 to 2024. </figcaption>
 </figure>
 
-As the visualization plays, it can be observed that there is consistently more activity in the upper and middle right side of San Francisco, where many of the landmarks are located, compared to the regions with sparse landmarks. This indicates that a lot of the larceny/theft-related crimes might certainly be *linked* to tourist attractions! However, it is also important to note that it is hard to classify whether the crimes within these areas are solely targeted at tourists visiting these landmarks or are simply a coincidence, since no information within our dataset indicates whether the victims of these crimes are tourists or not. But, a strong argument could be made that there is a relation between landmarks and larceny/theft crime as **[San Francisco Census Maps](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)** shows that, in 2022, Sunset district (to the left of the map) has around 9.4% of the population which seemingly is around the same population as the Central, Northern, and Southern districts (to the upper right of the map), but the latter have more larceny/theft criminal activity compared to the other and their only differing factor within our analysis is the density of landmarks within the areas!
+As the visualization plays, it can be observed that there is consistently more activity in the upper and middle right side of San Francisco, where many of the landmarks are located, compared to the regions with sparse landmarks. This indicates that a lot of the larceny/theft-related crimes might certainly be *linked* to tourist attractions! However, it is also important to note that it is hard to classify whether the crimes within these areas are solely targeted at tourists visiting these landmarks or are simply a coincidence, since no information within our dataset indicates whether the victims of these crimes are tourists or not. But, a strong argument could be made that there is a relation between landmarks and larceny/theft crime as **[San Francisco Census Maps](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)** shows that, in 2022, around 9.4% of the population live in the Sunset district (to the left of the map) which seemingly is around the same population as the Central, Northern, and Southern districts combined (to the upper right of the map), but the latter have more larceny/theft criminal activity compared to the other and their only differing factor within our analysis is the density of landmarks within the areas!
 
 ## Daily Distribution of Crimes
 
@@ -81,24 +81,27 @@ Now that we have an idea of what places have high larceny/theft activity for tou
 
 <figure>
   <img src="/images/crime_calendar_plot.png" alt="Crime Calendar Plot" width="100%" style="width: 100%; height: auto;">
-  <figcaption> Fig 3: Larceny /Theft crime calendar plot from 2014 to 2024.</figcaption>
+  <figcaption> Figure 3: Larceny /Theft crime calendar plot from 2014 to 2024.</figcaption>
 </figure>
 
-In regard to the analysis over the years, larceny and theft crimes in San Francisco show a bit of vague seasonal trend. There are noticeable increases during the summer months, particularly in June and July, as well as in late November and December, but depending on the year, the crimes could also be more spread out throughout the whole year. Generally, weekends also tend to present slightly higher crime rates, likely due to increased foot traffic in popular areas. A particularly interesting pattern is the consistently high number of theft incidents recorded on and around the end of June across multiple years. Coincidentally, the last weekend of June is seemingly when the annual **[Pride Parade](https://en.wikipedia.org/wiki/San_Francisco_Pride)** takes place in San Francisco. Due to the huge number of people that would be present at the parade, it becomes an easy target for many larceny/theft-related crimes. The parade did not take place in 2020 and 2021, which is also clearly reflected in the calendar plot!
+In regards to the analysis over the years, larceny/theft crimes in San Francisco show a bit of a vague seasonal trend. There are noticeable increases during the summer months, particularly in June and July, as well as in late November and December, but depending on the year, the crimes could also be more spread out throughout the whole year. Generally, weekends also tend to present slightly higher crime rates, likely due to increased foot traffic in popular areas. A particularly interesting pattern is the consistently high number of theft incidents recorded on and around the end of June across multiple years. Coincidentally, the last weekend of June is seemingly when the annual **[Pride Parade](https://en.wikipedia.org/wiki/San_Francisco_Pride)** takes place in San Francisco. Due to the huge number of people that would be present at the parade, it becomes an easy target for many larceny/theft-related crimes. The parade did not take place in 2020 and 2021, which is also clearly reflected in the calendar plot!
 
 Prior to 2020, larceny incidents remained relatively stable. However, as mentioned previously, there was a significant decline in overall crimes in 2020 and 2021 due to COVID-19 restrictions and limitations on tourism and public activity. By 2022, crime rates began to rise again, though they have not yet reached pre-pandemic levels. Furthermore, and as previously mentioned, it is also to note the fact that the number of larceny crimes has consistently been dropping since the last third of 2023, with last year registering numbers that are very close to the critical pandemic period.
 
 ## Conclusion
 
-Overall, our analysis reveals that there is a link between locations with many landmarks and larceny/theft activity, and that there is also more activity during potential holiday periods (around June, July, late November, and December). If any incoming tourists are very particular about their safety regarding crimes such as pickpocketing, then it would be ideal to visit areas that are towards the left of the city and during non-holiday periods. However, it is still important for tourists to be aware of their surroundings, as there is still crime within these recommended areas and periods. <!-- Also, as there is relatively less crime in 2024 compared to previous years, and if the crime counts continue to decline, tourists may remain hopeful to visit any and all landmarks without fear in the future! -->
+Overall, our analysis reveals that there is a link between locations with many landmarks and larceny/theft activity, and that there is also more activity during potential holiday periods (around June, July, late November, and December). If any incoming tourists are very particular about the safety of their possessions, then it would be ideal to visit areas that are towards the left of the city and during non-holiday periods. <!-- Also, as there is relatively less crime in 2024 compared to previous years, and if the crime counts continue to decline, tourists may remain hopeful to visit any and all landmarks without fear in the future! -->
 
-Additionally, the recent sharp decline in car break-ins, which has significantly contributed to the overall decrease in larceny/theft crimes, offers hope that other crimes within this category might follow a similar downward trend. If such continues, it may lead to an even smaller number of incidents in the future, creating a safer environment for both residents and tourists. As crime levels in 2024 remain lower compared to previous years, tourists may remain hopeful to visit any and all landmarks without fear in the future!
+Additionally, the recent sharp decline in car break-ins, which has significantly contributed to the overall decrease in larceny/theft crimes, offers hope that other crimes within this category might follow a similar downward trend. However, it is still important for tourists to be aware of their surroundings, as there is still crime within these recommended areas. 
+
+ <!-- If such continues, it may lead to an even smaller number of incidents in the future, creating a safer environment for both residents and tourists. As crime levels in 2024 remain lower compared to previous years, tourists may remain hopeful to visit any and all landmarks without fear in the future! -->
 
 ### References
 
 - House of Travel. The USA's 7 most iconic cities. houseoftravel.co.nz. Retrieved from https://www.houseoftravel.co.nz/blogs/north-america/usa/the-usas-7-most-iconic-cities 
-- Dee Wood Harper Jr. (2001). Comparing Tourists Crime Victimization. popcenter.asu.edu. Retrieved from https://popcenter.asu.edu/sites/default/files/problems/crimes_against_tourists/PDFs/HarperJr._2001.pdf 
-- FBI. Larceny-theft definition. ucr.fbi.gov. Retrieved from https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/topic-pages/larceny-theft  
+- Ronald W. Glesnor and Kenneth J. Peak (2004). https://popcenter.asu.edu/content/crimes-against-tourists-0
+<!-- - Dee Wood Harper Jr. (2001). Comparing Tourists Crime Victimization. popcenter.asu.edu. Retrieved from https://popcenter.asu.edu/sites/default/files/problems/crimes_against_tourists/PDFs/HarperJr._2001.pdf  -->
+<!-- - FBI. Larceny-theft definition. ucr.fbi.gov. Retrieved from https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/topic-pages/larceny-theft   -->
 - DataSF. Landmarks Listed in Article 10 of the San Francisco Planning Code. data.sfgov.org. Retrieved from https://data.sfgov.org/Housing-and-Buildings/Landmarks-Listed-in-Article-10-of-the-San-Francisc/97yj-54sx/about_data  
 - San Francisco Chronicle. (2025). San Francisco violent, property crime fell to 20-year low in 2024. Retrieved from https://www.sfchronicle.com/crime/article/san-francisco-2024-data-20020378.php
 - https://en.wikipedia.org/wiki/San_Francisco_Pride
