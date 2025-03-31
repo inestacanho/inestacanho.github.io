@@ -12,11 +12,11 @@ This project was created as part of the 02806 Social Data Analysis and Visualiza
 
 ## What You’ll Find Here
 
-- Introduction to the Dataset: A quick overview of the San Francisco crime dataset and why it’s relevant.
+- **Introduction to the Dataset**: A quick overview of the San Francisco crime dataset and why it’s relevant.
 
-- Three Key Visualizations: A mix of time-series analysis, geographical mapping, and interactive visualizations to illustrate trends.
+- **Three Key Visualizations**: A mix of time-series analysis, geographical mapping, and interactive visualizations to illustrate trends.
 
-- Analysis & Context: Insights from our data, backed by external sources where needed.
+- **Analysis & Context**: Insights from our data, backed by external sources where needed.
 
 This project follows a storytelling approach to data visualization. It is hosted on GitHub Pages (the GitHub page is linked [here](https://github.com/inestacanho/inestacanho.github.io)). Visualizations were created using tools such as Matplotlib, Bokeh, and Folium.
 

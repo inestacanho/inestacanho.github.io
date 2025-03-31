@@ -22,7 +22,7 @@ layout: home
 
 San Francisco, one of the most popular cities in the United States (House of Travel), draws many tourists yearly with its iconic landmarks, picturesque views, and well-known neighborhoods. However, with high tourism comes an increased exposure to the possibility of theft and crime, particularly for these visitors unfamiliar with the area. One of the most common types of crime that tourists are exposed to is pickpocketing (Harper, 2001), which is classified under the category Larceny/Theft. (FBI)
 
-Therefore, in this analysis, we will examine **Larceny/Theft trends** in San Francisco from **2014 to 2024**, aiming to understand how the trends fluctuate throughout the years and how they relate to the city's **landmarks** (obtained from **INSERT SOURCE**). By analyzing these patterns, we hope to help tourists avoid/be aware of high-risk areas and thus navigate the city more safely in the present day.
+Therefore, in this analysis, we will examine **Larceny/Theft trends** in San Francisco from **2014 to 2024**, aiming to understand how the trends fluctuate throughout the years and how they relate to the city's **landmarks** (obtained from (DataSF, 2025)). By analyzing these patterns, we hope to help tourists avoid/be aware of high-risk areas and thus navigate the city more safely in the present day.
 
 ## Crime Overview
 
@@ -58,7 +58,7 @@ The above time-series graph of larceny/theft crimes shows how this crime has evo
 
 This trend is also reflected in the second interactive plot, which presents larceny/theft crime counts by district. Crime levels dropped sharply with the emergence of the pandemic and subsequent restrictions, but quickly rebounded as those restrictions were gradually lifted, returning to near pre-pandemic levels. 
 
-Furthermore, it is also visible that San Francisco has experienced a significant reduction in larceny/theft crimes recently, since around September of 2023, primarily due to a sharp decline in car break-ins—one of the most common crimes in the city (San Francisco Chronice, 2025). From 2023 to 2024, car break-ins fell by 54%, according to police data, leading to an overall 37% drop in larceny/theft incidents.
+Furthermore, it is also visible that San Francisco has experienced a significant reduction in larceny/theft crimes recently, since around September of 2023, primarily due to a sharp decline in car break-ins, one of the most common crimes in the city (San Francisco Chronicle, 2025). From 2023 to 2024, car break-ins fell by 54%, according to police data, leading to an overall 37% drop in larceny/theft incidents.
 
 While the overall number of larceny/theft crimes has decreased due to the reduction in car break-ins, it is worth noting that this data does not provide insights into other types of theft, such as pickpocketing. Given that our project focuses on tourist-targeted crimes, particularly pickpocketing, we cannot definitively state whether pickpocketing incidents have followed the same trend as car break-ins. Further analysis would be necessary to make conclusions about pickpocketing trends in San Francisco.
 
@@ -99,7 +99,8 @@ Additionally, the recent sharp decline in car break-ins, which has significantly
 - House of Travel. The USA's 7 most iconic cities. houseoftravel.co.nz. Retrieved from https://www.houseoftravel.co.nz/blogs/north-america/usa/the-usas-7-most-iconic-cities 
 - Dee Wood Harper Jr. (2001). Comparing Tourists Crime Victimization. popcenter.asu.edu. Retrieved from https://popcenter.asu.edu/sites/default/files/problems/crimes_against_tourists/PDFs/HarperJr._2001.pdf 
 - FBI. Larceny-theft definition. ucr.fbi.gov. Retrieved from https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/topic-pages/larceny-theft  
-- San Francisco Chronice. (2025). San Francisco violent, property crime fell to 20-year low in 2024. Retrieved from https://www.sfchronicle.com/crime/article/san-francisco-2024-data-20020378.php
+- DataSF. Landmarks Listed in Article 10 of the San Francisco Planning Code. data.sfgov.org. Retrieved from https://data.sfgov.org/Housing-and-Buildings/Landmarks-Listed-in-Article-10-of-the-San-Francisc/97yj-54sx/about_data  
+- San Francisco Chronicle. (2025). San Francisco violent, property crime fell to 20-year low in 2024. Retrieved from https://www.sfchronicle.com/crime/article/san-francisco-2024-data-20020378.php
 - https://en.wikipedia.org/wiki/San_Francisco_Pride
 - https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/
 
